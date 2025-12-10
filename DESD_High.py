@@ -1,5 +1,5 @@
 import time
-import numpy as np
+import numpy as np 
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from scipy.sparse import csr_matrix,bmat,eye
@@ -378,5 +378,6 @@ if __name__=='__main__':
     axis[1,1].grid(False)
     fig.tight_layout()
     plt.show()
+
 
 
