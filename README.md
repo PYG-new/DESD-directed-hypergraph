@@ -39,11 +39,9 @@ To run the Dirac-equation synchronization experiments, simply use:
 ```
 cd DESD
 
-python figure4.py
+python figure2_3.py
 
-python figure5.py
 ```
-Each script will automatically generate and save the corresponding experimental figures used in the main manuscript, fully reproducing the results shown in the paper.
 
 For the real-world hypergraph experiments (high-school social hypergraph and brain functional hypergraph), simply run:
 ```
@@ -54,5 +52,6 @@ python DESD_brain.py
 python DESD_High.py
 ```
 This script automatically loads the empirical datasets and executes all Dirac-equation synchronization analyses used in the paper.
+
 
 
