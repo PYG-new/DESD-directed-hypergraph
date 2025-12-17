@@ -8,8 +8,7 @@ This repository contains the official implementation of **Dirac-Equation Synchro
         * high_school/       # Empirical high-school hypergraph dataset
             * Brain_dataset.py
             * High_dataset.py
-    * figure4.py
-    * figure5.py
+    * figure2_3.py
     * DESD_brain.py
     * DESD_High.py
 
@@ -52,6 +51,7 @@ python DESD_brain.py
 python DESD_High.py
 ```
 This script automatically loads the empirical datasets and executes all Dirac-equation synchronization analyses used in the paper.
+
 
 
 
